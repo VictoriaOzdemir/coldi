@@ -32,8 +32,12 @@ export const BrandLink = styled.a`
 
   img {
     display: block;
-    max-width: 146px;
+    max-width: 116px;
     height: auto;
+
+     @media (min-width: 1200px) {
+      max-width: 146px;
+    }
   }
 
   &:focus-visible {

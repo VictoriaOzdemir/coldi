@@ -9,8 +9,8 @@ const headingSizes = {
 };
 
 const headingWeights = {
-  hero: 600,
-  section: 600,
+  hero: 500,
+  section: 500,
   card: 500,
   service: 500,
   process: 400,
@@ -41,7 +41,7 @@ export const GradientHeading = styled(Heading)`
   position: relative;
   z-index: 15;
   color: transparent;
-  letter-spacing: -0.9px;
+  letter-spacing: -2px;
   background: linear-gradient(
     to left,
     var(--color-surface),

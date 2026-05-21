@@ -12,7 +12,7 @@ export const HeroRoot = styled.section`
 
 export const HeroWave = styled.img`
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   width: 100%;
   height: auto;

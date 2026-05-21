@@ -75,6 +75,11 @@ export const PlanHeader = styled.div`
   height: 112px; 
   width: 274px;
   background-position: bottom;
+  transform: scale(0.9);
+
+  @media (min-width: 576px) {
+    transform: scale(1);
+  }
 
 `;
 

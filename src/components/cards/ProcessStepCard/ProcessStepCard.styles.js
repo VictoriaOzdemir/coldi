@@ -22,16 +22,24 @@ export const StepCard = styled.li`
 `;
 
 export const StepBadge = styled.span`
-  width: 116px;
-  height: 116px;
+  width: 96px;
+  height: 96px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   color: var(--color-surface);
   background: var(--color-primary);
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
+  margin-bottom: 16px;
+
+  @media (min-width: 1200px) {
+    width: 116px;
+    height: 116px;
+    font-size: 32px;
+  }
+
 `;
 
 export const StepTitle = styled(Heading)`

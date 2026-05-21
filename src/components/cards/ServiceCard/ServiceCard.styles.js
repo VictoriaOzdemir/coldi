@@ -40,7 +40,7 @@ export const ServiceContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 24px;
+  padding: clamp(16px, 4vw, 24px);
   color: var(--color-surface);
 `;
 
