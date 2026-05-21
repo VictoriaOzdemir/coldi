@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-surface: #fafafa;
+  --color-base: #303030;
+  --color-surface-dark: #282D40;
+  --color-primary: #4168ff;
+  --color-primary-soft: #819aff;
+  --color-plan-purple: #a249f4;
+  --color-plan-pink: #ff3f6f;
+  --color-hero-dark: #111525;
+  --circle: #1b2650;
+  --color-service-overlay: rgba(8, 10, 19, 0.48);
+  --color-focus: var(--color-primary-soft);
+  --color-service-green: #17b46b;
+
+  --font-family-base: "Roboto", sans-serif;
+  --font-size-body: 16px;
+  --font-size-button: var(--font-size-body);
+  --font-size-heading-hero: clamp(48px, 6vw, 96px);
+  --font-size-heading-section: clamp(32px, 4vw, 64px);
+  --font-size-heading-card: 28px;
+  --font-size-heading-service: clamp(28px, 4vw, 48px);
+  --font-size-heading-process: clamp(32px, 5vw, 80px);
+  --font-size-logo: 32px;
+  --font-size-text-sm: var(--font-size-body);
+  --font-size-price: 20px;
+  --section-heading-mb: 32px;
+
+  --container-max: 100%;
+  --grid-gap-lg: clamp(16px, 3vw, 32px);
+  --pricing-grid-offset: clamp(64px, 9vw, 116px);
+  --radius-sm: 18px;
+  --radius-md: 32px;
+  --radius-lg: 46px;
+  --radius-xl: 48px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 24px 42px rgba(17, 21, 37, 0.18);
+  --shadow-card-soft: 0 -20px 48px rgba(17, 21, 37, 0.12);
+  --shadow-button: 0 14px 24px rgba(65, 104, 255, 0.25);
+  --shadow-button-hover: 0 18px 28px rgba(65, 104, 255, 0.32);
+  --shadow-header: 0 1px 8px var(--color-base);
+
+  --motion-fast: 180ms ease;
+  --motion-reveal: 820ms cubic-bezier(0.22, 1, 0.36, 1);
+}
