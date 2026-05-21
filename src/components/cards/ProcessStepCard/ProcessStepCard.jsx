@@ -3,7 +3,7 @@ import { StepBadge, StepCard, StepTitle } from './ProcessStepCard.styles.js';
 
 export default function ProcessStepCard({ stackOrder, step }) {
   return (
-    <StepCard $stackOrder={stackOrder}>
+    <StepCard $stackOrder={stackOrder}  data-reveal="scroll">
       <StepBadge aria-label={`Step ${step.number}`}>{step.number}</StepBadge>
 
       <StepTitle as="h3" $variant="process">

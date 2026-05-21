@@ -29,6 +29,11 @@ export const HeroCircle = styled.span`
   border-radius: 50%;
   background: var(--color-hero-dark);
   transform: translate(-50%, -50%);
+  display: ${({ $placement }) => ($placement === 'start' ? 'block' : 'none')};
+
+  @media (min-width: 1400px) {
+    display: block;
+  }
 `;
 
 export const HeroCopy = styled.div`
