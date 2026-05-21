@@ -5,7 +5,7 @@ const headingSizes = {
   section: 'var(--font-size-heading-section)',
   card: 'var(--font-size-heading-card)',
   service: 'var(--font-size-heading-service)',
-  process: 'var(--font-size-heading-process)',
+  process: 'var(--font-size-heading-section)',
 };
 
 const headingWeights = {

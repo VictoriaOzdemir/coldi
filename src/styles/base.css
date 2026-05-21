@@ -36,12 +36,12 @@ svg {
 #root {
   border: 16px solid;
 
-border-image: linear-gradient(
+  border-image: linear-gradient(
   -90deg,
-  rgba(129, 154, 255, 0.6), /* #819aff */
-  rgba(66, 104, 255, 0.6),  /* #4268ff */
-  rgba(163, 76, 255, 0.6),  /* #a34cff */
-  rgba(23, 180, 107, 0.6),  /* #17b46b */
-  rgba(255, 63, 104, 0.6)   /* #ff3f68 */
-) 1;
+    rgba(129, 154, 255, 0.6), 
+    rgba(66, 104, 255, 0.6),  
+    rgba(163, 76, 255, 0.6),  
+    rgba(23, 180, 107, 0.6),  
+    rgba(255, 63, 104, 0.6)  
+  ) 1;
 }

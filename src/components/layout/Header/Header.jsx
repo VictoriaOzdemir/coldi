@@ -1,15 +1,14 @@
 import logo from '../../../assets/images/full-logo.svg';
-import Container from '../../ui/Container/Container.jsx';
-import { BrandLink, HeaderRoot } from './Header.styles.js';
+import { BrandLink, HeaderRoot, HeaderContainer } from './Header.styles.js';
 
 export default function Header() {
   return (
     <HeaderRoot>
-      <Container>
+      <HeaderContainer>
         <BrandLink href="/" aria-label="Coldi home" data-reveal="load">
           <img src={logo} alt="Coldi" />
         </BrandLink>
-      </Container>
+      </HeaderContainer>
     </HeaderRoot>
   );
 }

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ContainerRoot } from '../../ui/Container/Container.styles.js';
 
 export const HeaderRoot = styled.header`
   position: sticky;
@@ -6,7 +7,7 @@ export const HeaderRoot = styled.header`
   left: 0;
   z-index: 20;
   width: 100%;
-  min-height: 82px;
+  height: 64px;
   display: flex;
   align-items: center;
   padding: 16px;
@@ -15,9 +16,16 @@ export const HeaderRoot = styled.header`
   box-shadow: var(--shadow-header);
 
   @media (min-width: 768px) {
-    height: 100px;
+    height: 75px;
   }
 `;
+
+export const HeaderContainer = styled(ContainerRoot)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 
 export const BrandLink = styled.a`
   position: relative;
@@ -32,11 +40,11 @@ export const BrandLink = styled.a`
 
   img {
     display: block;
-    max-width: 116px;
+    max-width: 96px;
     height: auto;
 
      @media (min-width: 1200px) {
-      max-width: 146px;
+      max-width: 116px;
     }
   }
 

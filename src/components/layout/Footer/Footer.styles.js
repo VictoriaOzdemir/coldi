@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterRoot = styled.footer`
   display: flex;
   justify-content: center;
-  padding: 32px 16px;
+  padding: 24px 16px;
   background: var(--circle);
   color: var(--color-surface);
 
