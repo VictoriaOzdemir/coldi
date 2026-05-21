@@ -4,8 +4,8 @@ export const FooterRoot = styled.footer`
   display: flex;
   justify-content: center;
   padding: 24px 16px;
-  background: var(--circle);
-  color: var(--color-surface);
+  background: var(--color-surface);
+  color: var(--color-base);
 
   small {
     font-size: var(--font-size-body);

@@ -57,6 +57,20 @@ export default function ProcessSection() {
             </ProcessList>
           </Container>
         </ProcessBand>
+
+        <ProcessWave
+          preserveAspectRatio="none" 
+          width="1922" height="339" 
+          viewBox="0 0 1922 339" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+        
+          <path d="M1922 339V166L0 317.151V339H1922Z" fill="var(--color-surface)"/>
+          <path d="M0 339V0H1922V168.5L0 339Z" fill="var(--color-primary-soft)"/>
+        </ProcessWave>
+
       </ProcessStack>
     </ProcessRoot>
   );
