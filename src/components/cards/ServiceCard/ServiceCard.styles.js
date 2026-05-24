@@ -45,7 +45,7 @@ export const ServiceContent = styled.div`
 `;
 
 export const ServiceTitle = styled(Heading)`
-  padding-top: 16px;
+  padding-top: 24px;
   margin-bottom: 24px;
   display: -webkit-box;
   overflow: hidden;
@@ -57,8 +57,10 @@ export const ServiceCopy = styled(Text)`
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   margin-bottom: 24px;
+  height: 76px;
+  overflow: hidden;
 `;
 
 export const ServiceAction = styled.div`
