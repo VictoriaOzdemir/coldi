@@ -10,6 +10,7 @@ import {
   HeroRoot,
   HeroWave,
   PricingList,
+  RevealItem
 } from './HeroSection.styles.js';
 
 export default function HeroSection() {
@@ -25,7 +26,9 @@ export default function HeroSection() {
             data-reveal="load"
           >
             {heroContent.title}
+            <RevealItem aria-hidden="true" className="reveal-item"></RevealItem>
           </GradientHeading>
+
 
           <Text
             $size="sm"
@@ -34,7 +37,7 @@ export default function HeroSection() {
             data-reveal="load"
             $hero="hero"
           >
-            {heroContent.description} <br />
+            {heroContent.description} <RevealItem aria-hidden="true" className="reveal-item"></RevealItem>
           </Text>
           <HeroCircle $placement="start" aria-hidden="true" />
         </HeroCopy>

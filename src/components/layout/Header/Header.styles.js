@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ContainerRoot } from '../../ui/Container/Container.styles.js';
+import { RevealItem } from '../../sections/Hero/HeroSection.styles.js';
 
 export const HeaderRoot = styled.header`
   position: sticky;
@@ -26,6 +27,9 @@ export const HeaderContainer = styled(ContainerRoot)`
   align-items: center;
 `;
 
+export const HeaderLogoRevealItem = styled(RevealItem)`
+  background: var(--color-surface);
+`;
 
 export const BrandLink = styled.a`
   position: relative;

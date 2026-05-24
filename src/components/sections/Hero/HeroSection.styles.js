@@ -36,6 +36,16 @@ export const HeroCircle = styled.span`
   }
 `;
 
+export const RevealItem = styled.span`
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 110%;
+  background: var(--color-hero-dark);
+  left: 0;
+  top: 0%;
+`;
+
 export const HeroCopy = styled.div`
   position: relative;
   display: inline-block;
@@ -59,3 +69,5 @@ export const PricingList = styled.ul`
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 `;
+
+
