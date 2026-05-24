@@ -8,6 +8,6 @@ export const FooterRoot = styled.footer`
   color: var(--color-base);
 
   small {
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-sm);
   }
 `;

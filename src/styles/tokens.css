@@ -21,7 +21,7 @@
   --font-size-heading-hero: clamp(48px, 6vw, 80px);
   --font-size-heading-section: clamp(32px, 3.8vw, 56px);
   --font-size-heading-card: 28px;
-  --font-size-heading-service: clamp(28px, 4vw, 32px);
+  --font-size-heading-service: clamp(26px, 4vw, 30px);
   --font-size-logo: 32px;
   --font-size-text-sm: var(--font-size-body);
   --font-size-price: 20px;

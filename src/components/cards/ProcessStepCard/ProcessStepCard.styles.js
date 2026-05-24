@@ -14,9 +14,9 @@ export const StepCard = styled.li`
   background: var(--color-surface);
   text-align: center;
   box-shadow: var(--shadow-card-soft);
+  min-height: 400px;
 
   @media (min-width: 768px) {
-    min-height: 56vh;
     border-radius: var(--radius-lg);
   }
 `;
@@ -44,4 +44,5 @@ export const StepBadge = styled.span`
 
 export const StepTitle = styled(Heading)`
   margin-bottom: 32px;
+  font-weight: 400;
 `;

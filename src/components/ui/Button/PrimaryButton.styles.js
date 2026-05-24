@@ -15,10 +15,6 @@ export const PrimaryButtonRoot = styled.a`
     box-shadow var(--motion-fast);
   cursor: pointer;
 
-  @media (min-width: 1200px) {
-    padding: 18px 28px;
-  }
-
   &:hover {
     transform: scale(1.05);
     box-shadow: var(--shadow-button-hover);

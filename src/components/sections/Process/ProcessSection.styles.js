@@ -23,6 +23,7 @@ export const ProcessWave = styled.svg`
   display: block;
   width: 100%;
   height: auto;
+  max-height: 200px;
 `;
 
 export const ProcessBand = styled.div`
