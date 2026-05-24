@@ -68,7 +68,7 @@ export const PlanHeader = styled.div`
   position: relative;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url(${({ $background }) => $background});
   background-repeat: no-repeat;
   background-size: 100%;
@@ -76,6 +76,7 @@ export const PlanHeader = styled.div`
   width: 274px;
   background-position: bottom;
   transform: scale(0.9);
+  
 
   @media (min-width: 576px) {
     transform: scale(1);
