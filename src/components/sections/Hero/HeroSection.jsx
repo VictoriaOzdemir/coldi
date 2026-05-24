@@ -21,9 +21,10 @@ export default function HeroSection() {
             as="h1"
             id="hero-title"
             $variant="hero"
+            $hero="hero"
             data-reveal="load"
           >
-            {heroContent.title[0]} <br /> {heroContent.title[1]}
+            {heroContent.title}
           </GradientHeading>
 
           <Text
@@ -33,8 +34,7 @@ export default function HeroSection() {
             data-reveal="load"
             $hero="hero"
           >
-            {heroContent.description[0]} <br />
-            {heroContent.description[1]}
+            {heroContent.description} <br />
           </Text>
           <HeroCircle $placement="start" aria-hidden="true" />
         </HeroCopy>

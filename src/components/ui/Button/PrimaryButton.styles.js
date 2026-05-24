@@ -10,7 +10,6 @@ export const PrimaryButtonRoot = styled.a`
   text-decoration: none;
   font-size: var(--font-size-button);
   font-weight: 500;
-  box-shadow: var(--shadow-button);
   transition:
     transform var(--motion-fast),
     box-shadow var(--motion-fast);

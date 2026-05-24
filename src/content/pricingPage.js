@@ -4,10 +4,9 @@ import cardImage3 from '../assets/images/card-3.jpg';
 import cardImage4 from '../assets/images/card-4.jpg';
 
 export const heroContent = {
-  title: ['Simple Pricing', 'Scalable Power.'],
+  title: ['Simple Pricing Scalable Power.'],
   description: [
-    'Full architecture design of a custom agent tailored to your',
-    'specific business logic and brand voice.',
+    `Choose the plan that fits your stage, whether you're just testing or scaling full operations.`
   ],
 };
 
@@ -15,7 +14,7 @@ export const pricingPlans = [
   {
     eyebrow: 'Outbound Solutions',
     title: 'Outbound Calling Service',
-    description: 'Transform your outreach with proactive voice agents that execute campaigns on autopilot.',
+    description:'Transform your outreach with proactive AI agents that execute campaigns on autopilot.',
     price: 'Starting from $0.40/per minute',
     features: [
       'Strategy & Setup: High-conversion conversational flows',
@@ -33,7 +32,7 @@ export const pricingPlans = [
     description: 'Voice agents that understand intent and execute real business actions in real time.',
     price: 'Starting from $500/per agent',
     features: [
-      'Action-oriented support: bookings, tickets, queries',
+      'Action-oriented AI: bookings, tickets, queries',
       'CRM integration: Zendesk, Salesforce, and more',
       '24/7 resolution with zero wait time',
       'Omnichannel support: voice, chat, messaging',
@@ -46,32 +45,36 @@ export const pricingPlans = [
 
 export const services = [
   {
-    title: 'Custom Agent Development',
-    copy: 'Full architecture design of a custom agent tailored to your specific business logic and brand voice.',
+    title: 'Custom AI Development',
+    copy: 'Full architecture design of a custom AI agent tailored to your specific business logic and brand voice.',
     borderColor: 'var(--color-primary)',
     image: cardImage1,
-    quoteHref: '#pricing-quote',
+    quote:'Custom Quote',
+    quoteHref: '#calendar',
   },
   {
-    title: 'Quality Control (QC)',
-    copy: 'Audits conversations, flags risks, and keeps service quality consistent across every channel.',
+    title: 'Quality Control (QC) AI',
+    copy: 'Automated auditing of 100% of interactions to ensure script compliance, brand safety, and data accuracy.',
     borderColor: 'var(--color-plan-purple)',
     image: cardImage2,
-    quoteHref: '#pricing-quote',
+    quote:'Custom Quote',
+    quoteHref: '#calendar',
   },
   {
     title: 'Global VoIP Infrastructure',
-    copy: 'High-deliverability telephony, routing, and CRM-ready integrations for reliable calling.',
+    copy: 'High-quality local numbering and telephony access in dozens of countries to ensure maximum deliverability.',
     borderColor: 'var(--color-service-green)',
     image: cardImage3,
-    quoteHref: '#pricing-quote',
+    quote:'Based on Region/Volume',
+    quoteHref: '#calendar',
   },
   {
-    title: 'Global VoIP Infrastructure',
-    copy: 'Scale agent coverage across regions with resilient calling routes and real-time monitoring.',
+    title: 'Managed Implementation',
+    copy: `Full deployment, testing, and continuous optimization. We handle the technical heavy lifting so you don't have to.`,
     borderColor: 'var(--color-plan-pink)',
     image: cardImage4,
-    quoteHref: '#pricing-quote',
+    quote:'Included in Managed Plans',
+    quoteHref: '#calendar',
   },
 ];
 
@@ -79,7 +82,7 @@ export const processSteps = [
   {
     number: '01',
     title: 'Infrastructure Integration',
-    copy: 'Connect our platform with your existing VoIP provider or leverage our optimized high-deliverability network. We sync with your CRM to ensure the agent has full context.',
+    copy: 'Connect our AI with your existing VoIP provider or leverage our optimized high-deliverability network. We sync with your CRM to ensure the AI has the full context.',
   },
   {
     number: '02',

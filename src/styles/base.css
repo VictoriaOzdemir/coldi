@@ -35,13 +35,11 @@ svg {
 
 #root {
   border: 16px solid;
-
   border-image: linear-gradient(
-  -90deg,
+  to bottom,
     rgba(129, 154, 255, 0.6), 
     rgba(66, 104, 255, 0.6),  
-    rgba(163, 76, 255, 0.6),  
-    rgba(23, 180, 107, 0.6),  
-    rgba(255, 63, 104, 0.6)  
+    rgba(255, 255, 255, 0.6),  
+    rgba(163, 76, 255, 0.6)
   ) 1;
 }

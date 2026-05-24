@@ -1,4 +1,5 @@
 import PrimaryButton from '../../ui/Button/PrimaryButton.jsx';
+import PricingBadge from '../../ui/Badge/Badge.jsx';
 import Reveal from '../../ui/Reveal/Reveal.jsx';
 import {
   ServiceAction,
@@ -10,7 +11,9 @@ import {
   ServiceTitle,
 } from './ServiceCard.styles.js';
 
+
 export default function ServiceCard({ service, revealDelay = '0ms' }) {
+  
   return (
     <Reveal
       as={ServiceCardRoot}
@@ -19,6 +22,11 @@ export default function ServiceCard({ service, revealDelay = '0ms' }) {
     >
       <ServiceImage src={service.image} alt="" aria-hidden="true" />
       <ServiceOverlay aria-hidden="true" />
+      
+      <PricingBadge
+        quote={service.quote}
+        bagdeColor={service.borderColor}
+      />
 
       <ServiceContent>
         <ServiceTitle as="h3" $variant="service">
@@ -26,7 +34,6 @@ export default function ServiceCard({ service, revealDelay = '0ms' }) {
         </ServiceTitle>
 
         <ServiceCopy
-          $maxWidth="390px"
           $margin="0 0 40px"
           $size="lg"
           $lineHeight="1.45"

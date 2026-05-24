@@ -7,13 +7,13 @@ export const ServiceCardRoot = styled.li`
   display: flex;
   align-items: stretch;
   overflow: hidden;
-  padding-top: 125%;
+  padding-top: 128%;
   border: 12px solid ${({ $borderColor }) => $borderColor};
   background: var(--color-hero-dark);
   cursor: pointer;
 
   &:hover {
-    box-shadow: 0 0 20px ${({ $borderColor }) => $borderColor};
+    box-shadow: 0 0 16px ${({ $borderColor }) => $borderColor};
   }
 `;
 
@@ -45,13 +45,12 @@ export const ServiceContent = styled.div`
 `;
 
 export const ServiceTitle = styled(Heading)`
-  max-width: 440px;
+  padding-top: 16px;
   margin-bottom: 24px;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-
 `;
 
 export const ServiceCopy = styled(Text)`
@@ -59,6 +58,7 @@ export const ServiceCopy = styled(Text)`
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  margin-bottom: 24px;
 `;
 
 export const ServiceAction = styled.div`

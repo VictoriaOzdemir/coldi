@@ -77,7 +77,7 @@ export default function PricingCard({ plan, revealDelay = '0ms' }) {
         </FeatureList>
 
         <PrimaryButton href="/">
-          Get Pricing Quote
+          Request Now
         </PrimaryButton>
       </PlanContent>
     </Reveal>

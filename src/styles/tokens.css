@@ -10,15 +10,16 @@
   --color-plan-pink: #ff3f68;
   --color-hero-dark: #111525;
   --circle: #1b2650;
-  --color-service-overlay: rgba(8, 10, 19, 0.48);
+  --color-service-overlay: rgba(8, 10, 19, 0.6);
   --color-focus: var(--color-primary-soft);
   --color-service-green: #17b46b;
 
   --font-family-base: "Roboto", sans-serif;
   --font-size-body: 16px;
+  --font-size-sm: 14px;
   --font-size-button: var(--font-size-body);
   --font-size-heading-hero: clamp(48px, 6vw, 80px);
-  --font-size-heading-section: clamp(32px, 4vw, 64px);
+  --font-size-heading-section: clamp(32px, 3.8vw, 56px);
   --font-size-heading-card: 28px;
   --font-size-heading-service: clamp(28px, 4vw, 32px);
   --font-size-logo: 32px;
@@ -37,8 +38,7 @@
 
   --shadow-card: 0 24px 42px rgba(17, 21, 37, 0.18);
   --shadow-card-soft: 0 -20px 48px rgba(17, 21, 37, 0.12);
-  --shadow-button: 0 14px 24px rgba(65, 104, 255, 0.25);
-  --shadow-button-hover: 0 18px 28px rgba(65, 104, 255, 0.32);
+  --shadow-button-hover: 0 10px 24px rgba(65, 104, 255, 0.32);
   --shadow-header: 0 1px 8px var(--color-base);
 
   --motion-fast: 180ms ease;
